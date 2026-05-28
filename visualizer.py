@@ -139,7 +139,8 @@ def draw():
     )
 
     ax.set_title(
-        f"{selected_algo} | {selected_case} | n={selected_n} | step {current_step + 1}/{len(steps)}",
+        f"{selected_algo} | {selected_case} | n={selected_n}"
+        f" | step {current_step + 1}/{len(steps)}",
         fontsize=14
     )
 
